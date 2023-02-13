@@ -1,0 +1,4 @@
+#Igonre Json files
+
+package.json
+package-lock.json

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: rgb(0,41,121);
+    background: linear-gradient(180deg, rgba(0,41,121,1) 0%, rgb(0, 0, 0) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.container{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 1em 1em 0 1em;
+    background: rgba(0, 255, 179, 0.086);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 4px );   
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card__title{
+    text-align: center;
+    padding: 0.5em;
+    color: rgb(0, 0, 0);
+}
+
+.count{
+    background-color: rgba(5, 5, 5, 0.214);
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.count__num{
+    font-size: 4em;
+}
+
+.card__btns{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: .5em 2em;
+    margin: .5em;
+    text-transform:capitalize;
+    font-weight: 600;
+    color: white;
+    background: rgba(0, 255, 179, 0.086);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 4px );   
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.btn:hover{
+    background-color: black;
+    transition: 1.5s;
+    cursor: pointer;
+}
+

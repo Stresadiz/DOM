@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card__header">
+                <h1 class="card__title">
+                    Counter
+                </h1>
+            </div>
+            <div class="card__body">
+                <div class="count">
+                    <h1 id="count__num">
+                        0
+                    </h1>
+                </div>
+                <div class="card__btns">
+                    <button id="decrease" class="btn" onclick="decrease()">
+                        Decrease
+                    </button>
+                    <button id="increase" class="btn" onclick="increase()">
+                        Increase
+                    </button>
+                    <button id="reset" class="btn" onclick="reset()">
+                        Reset
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
